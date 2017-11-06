@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+test/
+src/
+.idea
+*.log
+.mcms
+logs
+/assets

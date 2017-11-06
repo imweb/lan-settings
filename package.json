@@ -1,0 +1,32 @@
+{
+  "name": "lan-settings",
+  "version": "0.0.1",
+  "description": "LAN settings",
+  "main": "lib/index.js",
+  "keywords": [
+    "lan",
+    "settings",
+    "pac",
+    "proxy"
+  ],
+  "homepage": "https://github.com/imweb/lan-settings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imweb/lan-settings.git"
+  },
+  "author": "avenwu <avenwu@vip.qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "regedit": "^2.2.7"
+  },
+  "scripts": {
+    "lint": "eslint ./lib",
+    "lintfix": "eslint --fix ./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1"
+  }
+}
