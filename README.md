@@ -8,7 +8,7 @@
 
 	npm i --save lan-settings
 
-####　使用
+#### 使用
 	
 	var lan = require('lan-settings');
 	// 获取当前局域网设置信息，如果err非空，表示获取失败
