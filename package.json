@@ -16,8 +16,12 @@
   },
   "author": "avenwu <avenwu@vip.qq.com>",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "optionalDependencies": {
     "regedit": "^2.2.7"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1"
   },
   "scripts": {
     "lint": "eslint ./lib",
@@ -25,8 +29,5 @@
   },
   "engines": {
     "node": ">= 0.10.0"
-  },
-  "devDependencies": {
-    "eslint": "^2.13.1"
   }
 }
