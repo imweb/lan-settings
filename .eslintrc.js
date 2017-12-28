@@ -1,6 +1,7 @@
 module.exports = {
   "env": {
-    "node": true
+    "node": true,
+    "es6": true
   },
   "extends": "eslint:recommended",
   "rules": {
@@ -30,6 +31,6 @@ module.exports = {
     "no-cond-assign": "off"
   },
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 2017
   }
 };
