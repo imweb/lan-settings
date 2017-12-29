@@ -16,18 +16,21 @@
   },
   "author": "avenwu <avenwu@vip.qq.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "eslint": "^4.14.0"
+  },
   "optionalDependencies": {
     "regedit": "^2.2.7"
   },
   "devDependencies": {
-    "eslint": "^2.13.1"
+    "babel-eslint": "^8.1.2",
+    "eslint-config-imweb": "^0.2.4"
   },
   "scripts": {
     "lint": "eslint ./lib",
     "lintfix": "eslint --fix ./lib"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 7.6"
   }
 }

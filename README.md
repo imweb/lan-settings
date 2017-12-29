@@ -76,7 +76,7 @@ lan.reset(function(err) {
 
 **lan.listNetworkServices(cb)**: 获取设备的所有可用 NetworkServices, `cb(err)` 为必填回调函数，如果重置失败，则err不为空。 (macOS only)
 ```js
-[ 'iPhone USB', 'Wi-Fi', 'Bluetooth PAN', 'Thunderbolt Bridge' ]
+[ 'iPhone USB', 'Ethernet', 'Wi-Fi', 'Bluetooth PAN', 'Thunderbolt Bridge' ]
 ```
 
 **lan.getSettings(cb[, networkservice])**:  获取当前局域网设置信息，其中 `cb(err, settings)` 为必填回调函数，如果出错 err不为空，否则settings为当前系统局域网设置信息，结构如下：
