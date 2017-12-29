@@ -27,8 +27,8 @@
     "eslint-config-imweb": "^0.2.4"
   },
   "scripts": {
-    "lint": "eslint ./lib",
-    "lintfix": "eslint --fix ./lib"
+    "lint": "eslint ./lib ./test",
+    "lintfix": "eslint --fix ./lib ./test"
   },
   "engines": {
     "node": ">= 7.6"
