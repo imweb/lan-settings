@@ -4,11 +4,11 @@
 ![LAN Settings](https://raw.githubusercontent.com/imweb/lan-settings/master/assets/settings.png)
 
 
-#### 安装
+## 安装
 `npm i --save lan-settings`
 
 
-#### 使用 (Promise/Async)
+## 使用 (Promise/Async)
 ```js
 const lan = require('lan-settings');
 
@@ -78,7 +78,7 @@ lan.reset()
 ```
 
 
-#### 使用 (Callback)
+## 使用 (Callback)
 ```js
 const lan = require('lan-settings');
 // 获取设备的所有可用 NetworkServices (macOS Only)
@@ -140,9 +140,9 @@ lan.reset(function(err) {
 	
 	
 
-#### API
+## API
 
-##### 注: networkservice 参数只适用于 macOS, 默认值为 "Wi-Fi"
+### 注: networkservice 参数只适用于 macOS, 默认值为 "Wi-Fi"
 
 **lan.listNetworkServices([cb])**:    
 获取设备的所有可用 NetworkServices   
