@@ -1,6 +1,6 @@
 const lan = require('../lib');
 
 
-lan.getSettings()
-  .then(console.log.bind(console))
+lan.listNetworkServices()
+  .then(console.log.bind(console, '获取成功'))
   .catch(console.log.bind(console, '获取失败'));

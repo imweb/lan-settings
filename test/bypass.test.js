@@ -1,10 +1,12 @@
-var lan = require('../lib');
+const lan = require('../lib');
 
-var settings = {
+
+const settings = {
   bypassLocal: true,
-  bypass: 'www.test'
+  bypass: 'www.test.com;www.test1.com',
 };
 
-lan.setSettings(settings, function(err) {
-  console.log(err ? '设置失败' : '设置成功');
-});
+
+lan.setSettings(settings)
+  .then(console.log.bind(console, '设置成功'))
+  .catch(console.log.bind(console, '设置失败'));
