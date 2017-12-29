@@ -2,7 +2,7 @@ var lan = require('../lib');
 
 var settings = {
   bypassLocal: true,
-  bypass: 'www.test.com;www.test2.com'
+  bypass: 'www.test.com;www.test1.com'
 };
 
 lan.setSettings(settings, function(err) {

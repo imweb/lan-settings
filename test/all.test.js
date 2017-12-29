@@ -11,5 +11,6 @@ var settings = {
 };
 
 lan.setSettings(settings, function(err) {
+  console.log(err)
   console.log(err ? '设置失败' : '设置成功');
 });
