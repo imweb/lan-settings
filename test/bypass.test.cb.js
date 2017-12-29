@@ -3,7 +3,7 @@ const lan = require('../lib');
 
 const settings = {
   bypassLocal: true,
-  bypass: 'www.test.com;www.test1.com'
+  bypass: 'www.test.com;www.test1.com',
 };
 
 

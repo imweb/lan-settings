@@ -3,7 +3,7 @@ const lan = require('../lib');
 
 const settings = {
   autoConfig: true,
-  autoConfigUrl: 'http://127.0.0.1:50011'
+  autoConfigUrl: 'http://127.0.0.1:50011',
 };
 
 
