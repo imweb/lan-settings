@@ -142,7 +142,7 @@ lan.reset(function(err) {
 
 ## API
 
-### 注: networkservice 参数只适用于 macOS, 默认值为 "Wi-Fi"
+### 注: networkservice 参数只适用于 macOS, 默认值为 "All", 即全部设置
 
 **lan.listNetworkServices([cb])**:    
 获取设备的所有可用 NetworkServices   
