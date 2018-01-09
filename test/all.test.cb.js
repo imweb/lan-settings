@@ -12,6 +12,7 @@ const settings = {
 };
 
 
-lan.setSettings(settings)
-  .then(console.log.bind(console, '设置成功'))
-  .catch(console.log.bind(console, '设置失败'));
+lan.setSettings(settings, (err) => {
+  console.log(err);
+  console.log(err ? '设置失败' : '设置成功');
+});

@@ -13,5 +13,12 @@ const settings = {
 
 
 lan.setSettings(settings)
-  .then(console.log.bind(console, '设置成功'))
+  .then(() => {
+    console.log('设置成功');
+    setTimeout(() => {
+      lan.reset()
+        .then(console.log.bind(console, '重置成功'))
+        .catch(console.log.bind(console, '重置失败'));
+    }, 1000);
+  })
   .catch(console.log.bind(console, '设置失败'));
