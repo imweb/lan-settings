@@ -1,6 +1,6 @@
 {
   "name": "lan-settings",
-  "version": "1.0.0-beta4",
+  "version": "1.0.0",
   "description": "LAN settings",
   "main": "lib/index.js",
   "keywords": [
@@ -16,15 +16,13 @@
   },
   "author": "avenwu <avenwu@vip.qq.com>",
   "license": "MIT",
-  "dependencies": {
-    "eslint": "^4.14.0"
-  },
   "optionalDependencies": {
     "regedit": "^2.2.7"
   },
   "devDependencies": {
-    "babel-eslint": "^8.1.2",
-    "eslint-config-imweb": "^0.2.4"
+    "babel-eslint": "10.0.3",
+    "eslint": "^5.3.0",
+    "eslint-config-imweb": "^0.2.19"
   },
   "scripts": {
     "lint": "eslint ./lib ./test",
